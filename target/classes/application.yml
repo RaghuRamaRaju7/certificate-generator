@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: iraghuramaraju7@gmail.com
+    password: cfmlcfbblycuenpd
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
