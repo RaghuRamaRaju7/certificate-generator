@@ -13,7 +13,7 @@
     <groupId>com.certapp</groupId>
     <artifactId>certificategenerator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging> <!-- ✅ CHANGED from war to jar -->
+    <packaging>jar</packaging> 
 
     <name>certificategenerator Maven Project</name>
     <url>http://maven.apache.org</url>
