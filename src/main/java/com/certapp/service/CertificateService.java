@@ -14,7 +14,7 @@ public class CertificateService {
     public void generateAndSend(Student student) {
         try {
             String fileName = student.getName().replaceAll(" ", "_") + "_certificate.pdf";
-            Document document = new Document(PageSize.A4.rotate(), 50, 50, 50, 50); // Landscape orientation
+            Document document = new Document(PageSize.A4.rotate(), 50, 50, 50, 50); 
             PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(fileName));
             document.open();
 
